@@ -45,7 +45,6 @@
     margin-top: -5px;
     padding-left: 10px;
     color: rgb(255, 66, 165);
-    font-weight: 600;
     
   } 
   .nav-bar-img p span
@@ -417,13 +416,7 @@
 /*smaller device */
 @media  screen and (max-width:576px)
 {
-  .nav-bar-img p
-  {
-    
-    
-    font-weight: 500;
-    
-  } 
+  
    .nav-bar
    {
     height: 280px;
@@ -574,13 +567,7 @@
 /*mediam device*/
 @media  screen and (min-width:577px) and (max-width:768px)
 {
-  .nav-bar-img p
-  {
-    
-    
-    font-weight: 500;
-    
-  } 
+   
   .nav-bar 
   {
     width: 992px;
