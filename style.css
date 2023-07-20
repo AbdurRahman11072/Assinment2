@@ -567,26 +567,27 @@
   }
   .game-genra
   {
-    height: 1200px;
+    height:100%;
+    padding: 80px 10px;
   }
   
   .games 
   {
     justify-content: left;
     padding-left: 5px;
-    width: 300px;
-    height: 100px;
+    width: 130px;
+    height: 50px;
     
   }
   .games img 
   {
-    height: 80px;
-    padding-left: 10px;
+    height: 30px;
+    padding-left: 2px;
   }
   .games p 
   {
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 5px;
+    font-size: 10px;
   }
   .f-link 
   {
