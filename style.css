@@ -45,6 +45,7 @@
     margin-top: -5px;
     padding-left: 10px;
     color: rgb(255, 66, 165);
+    font-weight: 600;
     
   } 
   .nav-bar-img p span
@@ -194,8 +195,9 @@
 {
     position: relative;
     height: 350px;
+    width:300px;
     margin-top: 20px;
-    border: 5px solid transparent;
+    
 
 }
 .video-img img
@@ -203,20 +205,15 @@
     height: 350px;  
     
 }
-.video-img:hover
-{
-  border: 5px solid rgb(249,72,199);
-  border-radius:20px ;
-  
-}
+
 .icon
 {
     display: none;
     background: rgb(13, 13, 13,0.6);
-    width: 100%;
+    width: 290px;
     border-radius: 16px;
-   
-    height: 350px;
+    border: 5px solid transparent;
+    height: 345px;
     position: absolute;
     bottom: 0px;
     text-align: center;
@@ -226,6 +223,9 @@
 .videos:hover .icon
 {
   display: block;
+  border: 5px solid rgb(249,72,199);
+  border-radius:20px ;
+  
   
 }
 
@@ -380,7 +380,26 @@
   margin-top: 100px;
   margin-bottom: 20px;
 }
-.f-link, .f-icon, .p-link{
+.f-logo h1
+{
+  color: white;
+}
+.f-logo h1 span
+{
+  color: rgb(249,72,199);
+}
+.f-link
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+ .f-icon, .p-link{
   
   display: flex;
   flex-wrap: wrap;
@@ -537,28 +556,52 @@
   .img1
   {
     height: 330px;
-    padding-left: 40px;
+    padding-left: 8px;
   }
   .img2
   {
     height: 150px;
-    margin-left: -370px;
-    margin-top: 220px;
+    margin-left: -235px;
+    margin-top: 240px;
 
   }
   .game-genra
   {
-    height: 800px;
+    height:100%;
+    padding: 80px 10px;
   }
+  
   .games 
   {
     justify-content: left;
     padding-left: 5px;
+    width: 130px;
+    height: 50px;
     
+  }
+  .games img 
+  {
+    height: 30px;
+    padding-left: 2px;
   }
   .games p 
   {
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: 10px;
+  }
+  .f-link 
+  {
+    gap: 30px;
+    
+   
+  }
+  .f-link a 
+  {
+    text-align: left;
+  }
+  .p-link 
+  {
+    gap: 20px;
   }
 
   
@@ -608,15 +651,18 @@
   }
   .video-img
   {
+    width: 397px;
     height: 458px;
   }
   .video-img img 
   {
-    height: 460px;
+    height: 458px;
   }
  .icon
  {
-  height: 464px;
+  width: 385px;
+  height: 453px;
+  margin-top: 10px;
  }
  .icon i 
  {
@@ -655,8 +701,16 @@
  {
   width: 900px;
   margin-left: 50px;
-  
-  
+   
+ }
+ .games
+ {
+  justify-content: left;
+  width: 250px;
+ }
+ .games img, .games p 
+ {
+  padding-left: 10px;
  }
  .footer
  {
